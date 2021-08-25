@@ -1,6 +1,47 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+
+body, html {
+	font-family:'Lato','Helvetica', 'Arial' e 'sans-serif';
+	background-color: #f3f3f3;
+}
+
+p {
+	color: #444444;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+
 .clear {
 	clear: both;
 }
+
+.mainDetails {
+	padding: 25px 35px;
+	border-style: solid;
+	border-color: #cf8a05;
+  border-bottom-width: 2px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
 
 #headshot {
 	width: 12.5%;
@@ -8,20 +49,83 @@
 	margin-right: 30px;
 }
 
+#headshot img {
+	width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
 #name {
 	float: left;
 }
 
-#contactDetails {
-	float: right;
+#name h1 {
+	font-family: 'rokkitt', 'Helvetica', 'sans-serif';
+	font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: -6px;
 }
 
+#name h2 {
+	font-family: 'rokkitt', 'Helvetica', 'sans-serif';
+	font-size: 2em;
+    margin-left: 2px;
+}
+
+#contactDetails {
+	float: right;
+	color: #181818;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+}
+
+section {
+	padding: 20px 0 0;
+	border-style: solid;
+	border-color:#dedede;
+  border-top-width: 2px;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+
 .sectionTitle {
+	color: #cf8a05;
 	float: left;
 	width: 25%;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+.sectionContent h2 {
+	font-size: 1.5em;
+    margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+
+.keySkills {
+	color: #444444;
+	list-style-type: none;
+    column-count: 3;
+    margin-bottom: 20px;
+    font-size: 1em;
 }
